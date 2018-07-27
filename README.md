@@ -15,16 +15,16 @@
 
 # 系统架构 #
 
-![](https://raw.githubusercontent.com/cinoliu/Promotion-engine/master/img/structure.jpg) 
+![](https://raw.githubusercontent.com/cinoliu/Promotion-engine/master/img/structure.png) 
 
 
 # 销售模式 #
-![](https://raw.githubusercontent.com/cinoliu/Promotion-engine/master/img/Sales.jpg) 
+![](https://raw.githubusercontent.com/cinoliu/Promotion-engine/master/img/Sales.png) 
 
 
 # 运营模式 #
 
-![](https://raw.githubusercontent.com/cinoliu/Promotion-engine/master/img/Operation.jpg) 
+![](https://raw.githubusercontent.com/cinoliu/Promotion-engine/master/img/Operation.png) 
 
 
 # 扩展解决方案 #
