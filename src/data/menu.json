@@ -1,0 +1,88 @@
+[
+
+	{
+		"path": "/systemManagement",
+		"icon": "lock-combination",
+		"title": "系统管理",
+		"name": "/systemManagement",
+		"component": "Main",
+		"children": [
+
+			{
+				"path": "system_userManager",
+				"title": "用户管理",
+				"name": "system_userManager",
+				"icon": "arrow-move",
+				"component": "systemManagement/system_userManager"
+			},
+
+
+			{
+				"path": "system_partManager",
+				"title": "角色管理",
+				"name": "system_partManager",
+				"icon": "arrow-move",
+				"component": "systemManagement/system_partManager"
+			},
+
+
+			{
+				"path": "system_authResManager",
+				"title": "资源管理",
+				"name": "system_authResManager",
+				"icon": "arrow-move",
+				"component": "systemManagement/system_authResManager"
+			},
+
+			{
+				"path": "system_updateUserPWD",
+				"title": "修改密码",
+				"name": "system_updateUserPWD",
+				"icon": "arrow-move",
+				"component": "systemManagement/system_updateUserPWD"
+			}
+
+
+
+        ]
+    },
+
+
+	{
+		"path": "/promotionalConditions",
+		"icon": "android-checkbox",
+		"name": "promotionalConditions",
+		"title": "组件",
+		"component": "Main",
+		"children": [
+			{
+				"path": "promotionalConditions-List",
+				"title": "列表",
+				"name": "promotionalConditions-List",
+				"icon": "compose",
+				"component": "promotionalConditions/promotionalConditions-List"
+			},
+
+
+			{
+				"path": "promotionalConditions-upload",
+				"title": "上传",
+				"name": "promotionalConditions-upload",
+				"icon": "compose",
+				"component": "promotionalConditions/upload"
+			},
+				{
+				"path": "promotionalConditions-treetable",
+				"title": "树形表格",
+				"name": "promotionalConditions-treetable",
+				"icon": "compose",
+				"component": "promotionalConditions/treetable"
+			}
+
+
+        ]
+    }
+
+
+
+]
