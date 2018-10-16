@@ -68,33 +68,25 @@ vue2 +  iview2 + vuex + vue-router + webpack + ES6/7 + less + axios +svg + echar
 
 - [x] 封装ajax多种提交方式 
 
-		```
-			 ajaxGet(get)
+	
+			-  ajaxGet(get)
 
 			 this.func.ajaxGet(this.api.baseUrl + '/sysUser/getUserPage.do', res => {})
-		```
-
-		``` 
-			ajaxPostfile(Request Payload)
+	
+	
+			- ajaxPostfile(Request Payload)
 
 			this.func.ajaxPost(this.api.baseUrl + '/sysUser/getUserPage.do', reqParams, res => {})
 
-		```
-
-		```
-			ajaxPost(Form Data)
+	
+			- ajaxPost(Form Data)
 
 			this.func.ajaxPost(this.api.baseUrl + 'sysUser/getUserPage.do', this.qs.stringify(reqParams), res => {})
 
-		```
 
 
-
-
-- [x] 路由写在src/data/menu.json
    
 - [x]  打包发布
-
 	  ```
 		  修改 build/webpack.prod.config.js的publicPath 路径为发布环境路径
 
