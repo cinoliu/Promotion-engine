@@ -87,6 +87,7 @@ vue2 +  iview2 + vuex + vue-router + webpack + ES6/7 + less + axios +svg + echar
 
    
 - [x]  打包发布
+
 	  ```
 		  修改 build/webpack.prod.config.js的publicPath 路径为发布环境路径
 
