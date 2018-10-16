@@ -44,3 +44,76 @@
 
 
 
+## 项目运行 ##
+npm install  (安装依赖)
+
+### 发布测试环境
+
+npm run dev 
+
+### 构建生成环境
+
+npm run build 
+
+
+
+## 技术栈
+
+vue2 +  iview2 + vuex + vue-router + webpack + ES6/7 + less + axios +svg + echarts + js-cookie
+
+
+## 开发前言 ##
+
+- [x] 由于涉及大量的 ES6/7 等新属性，node 需要 8.0 以上版本
+
+- [x] 封装ajax多种提交方式 
+
+		```
+			 ajaxGet(get)
+
+			 this.func.ajaxGet(this.api.baseUrl + '/sysUser/getUserPage.do', res => {})
+		```
+
+		``` 
+			ajaxPostfile(Request Payload)
+
+			this.func.ajaxPost(this.api.baseUrl + '/sysUser/getUserPage.do', reqParams, res => {})
+
+		```
+
+		```
+			ajaxPost(Form Data)
+
+			this.func.ajaxPost(this.api.baseUrl + 'sysUser/getUserPage.do', this.qs.stringify(reqParams), res => {})
+
+		```
+
+
+
+
+- [x] 路由写在src/data/menu.json
+   
+- [x]  打包发布
+
+	  ```
+		  修改 build/webpack.prod.config.js的publicPath 路径为发布环境路径
+
+		  执行npm run build 
+
+		  发布包在dist目录下
+
+	  ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
